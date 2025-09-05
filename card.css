@@ -1,0 +1,47 @@
+/* *{
+    margin: 0;
+} */
+img{
+    border-radius: 10px;
+    height: 400px;
+}
+#outer 
+{
+
+ padding: 20px;
+ width: 300px;
+ border-radius: 10px;
+ border: solid 2PX;
+}
+#inner{
+    background-color:#F7F4EA;
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+     border: solid 1.5PX;
+    
+}
+h2{
+    margin: 0;
+    background-color: #EBD9D1;
+    border-radius: 5px;
+    border: solid 1px;
+}
+#imgg{
+    height: 400px;
+}
+.jhon{
+     background-color: #7ca2ac;
+}
+.rey{
+    background-color:rgb(124, 51, 51) ;
+}
+.roman{
+    background-color: black;
+}
+.rock{
+    background-color: gold;
+}
+.hhh{
+    background-color: antiquewhite;
+}
