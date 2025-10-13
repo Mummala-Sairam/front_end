@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            background-color: aliceblue;
+            width: 100%;
+            height: 80px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .single{
+            background-color: lightgreen;
+            width: 30%;
+            height: 70%;
+            color: green;
+            font-size: 2rem;
+            text-align: center;
+        }
+        .color{
+            display: none   ;
+        }
+        .multi{
+            background-color: rgb(212, 214, 214);
+            height: 70%;
+            width: 60%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+        .pink{
+            background-color: pink;
+            width: 25%;
+            height: 70%;
+            color: brown;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+        .red{
+            background-color: red;
+            width: 25%;
+            height: 70%;
+            color: black;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+        .orange{
+            background-color: orange;
+            width: 25%;
+            height: 70%;
+            color: rgb(181, 5, 5);
+            font-size: 1.5rem;
+            text-align: center;
+
+        }
+        p{
+            margin: 0;
+        }
+        @media screen and (max-width: 576px) {
+            .single {
+                display: none;
+     
+            }
+            .multi{
+                display: none;
+            }
+            .color{
+                display: block;
+                background-color: rgb(15, 119, 209);
+                color: rgb(253, 232, 206);
+                height: 50%;
+                width: 50%;
+                text-align: center;
+                font-size: 2rem;
+            
+        }}
+        @media screen and (min-width: 577px) and (max-width:996px) {
+            .orange{
+                display: none;
+
+            }
+            .red{
+                width: 45%;
+            }
+            .pink{
+                width: 45%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="single"><p>GREEN</p></div>
+        <div class="color"><p>COLORS</p></div>
+        <div class="multi">
+            <div class="pink"><p>PINK</p></div>
+            <div class="red"><p>RED</p></div>
+            <div class="orange"><p>ORANGE</p></div>
+
+        </div>
+    </div>
+</body>
+</html>
